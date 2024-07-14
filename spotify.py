@@ -3,10 +3,10 @@ import base64
 import pandas as pd
 import time
 
-CLIENT_ID = '792f57f66d8a47fca2befcbb36ab7ffe'
-ALT_CLIENT_ID = 'fa0c217a698d4c35b0929a4b8a65c37f'
-CLIENT_SECRET = '2274e71cbcc44a8b8c3168979a2581eb'
-ALT_CLIENT_SECRET = '44f3ea32b6d04b4c9f9e83c4429541ed'
+CLIENT_ID = '*'
+ALT_CLIENT_ID = '*'
+CLIENT_SECRET = '*'
+ALT_CLIENT_SECRET = '*'
 
 # Base64 encode the client ID and client secret
 client_credentials = f"{ALT_CLIENT_ID}:{ALT_CLIENT_SECRET}"
